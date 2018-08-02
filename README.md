@@ -5,4 +5,5 @@
 - Build and dependency setup for Maven
 - Build and dependency setup for Gradle
 - Basic project setup and structure
-- Implement simple microservice with REST endpoint
+- Implement simple webservice with REST endpoint
+- Local deployment with Payara 5
