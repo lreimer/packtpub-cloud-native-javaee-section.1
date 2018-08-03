@@ -48,7 +48,7 @@ Next, create a resource class for your Hello REST endpoint.
 public class HelloWorldResource {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
-    public JsonObject helloWorld() {
+    public JsonObject helloWorld() {        
         return Json.createObjectBuilder()
                 .add("message", "Cloud Native Application Development with Java EE.")
                 .build();
