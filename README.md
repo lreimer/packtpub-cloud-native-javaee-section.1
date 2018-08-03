@@ -4,9 +4,9 @@
 
 ### Step 1a: Build and dependency setup for Gradle
 
-Create a `build.gradle` file, apply the WAR plugin and add the Java EE 8 dependency 
-(see https://mvnrepository.com/artifact/javax/javaee-api/8.0). This is what the final
-result should look like:
+Create a `build.gradle` file, apply the WAR plugin and add the Java EE 8 
+dependency (see https://mvnrepository.com/artifact/javax/javaee-api/8.0). 
+This is what the final result should look like:
 ```groovy
 plugins {
     id 'war'
@@ -21,9 +21,9 @@ dependencies {
 
 ### Step 1b: Build and dependency setup for Maven
 
-In case you prefer Maven as build tool, create a simple project with packaging WAR.
-Go to https://mvnrepository.com/artifact/javax/javaee-api/8.0 and insert the dependency
-definition into Maven `pom.xml` file.
+In case you prefer Maven as build tool, create a simple project with 
+packaging WAR. Go to https://mvnrepository.com/artifact/javax/javaee-api/8.0 
+and insert the dependency definition into Maven `pom.xml` file.
 ```xml
 <dependency>
     <groupId>javax</groupId>
